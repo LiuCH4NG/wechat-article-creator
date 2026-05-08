@@ -27,6 +27,16 @@ wechat-article-creator/
     └── screenshot.py     # Playwright 自适应截图脚本
 ```
 
+## 安装本 Skill
+
+将本仓库克隆到 Claude Code 的 skills 目录：
+
+```bash
+git clone https://github.com/LiuCH4NG/wechat-article-creator.git ~/.claude/skills/wechat-article-creator
+```
+
+或手动下载 ZIP 解压到 `.claude/skills/wechat-article-creator/`，然后执行 `/reload-plugins` 重新加载。
+
 ## 依赖
 
 ### Obsidian
